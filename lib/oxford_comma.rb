@@ -12,6 +12,5 @@ def oxford_comma(array)
     string << "#{array[i]}, "
     i += 1
     string << "and #{array[array.length-1]}"
-    end
   end
 end
