@@ -11,6 +11,6 @@ def oxford_comma(array)
     until i = array.length - 1 
     string << "#{array[i]}, "
     i += 1
-    string << "and #{array["
+    string << "and #{array[array.length - 1"
   end
 end
