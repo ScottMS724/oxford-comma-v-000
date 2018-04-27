@@ -9,6 +9,6 @@ def oxford_comma(array)
     return array
   else
     until i = array.length - 1 
-    string << ","
+    string << "#{array[1]}"
   end
 end
